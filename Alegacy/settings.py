@@ -31,7 +31,7 @@ SECRET_KEY = os.environ.get(
 DEBUG = os.environ.get('DJANGO_DEBUG', '') != 'False'
 
 
-ALLOWED_HOSTS = ["application-1-6equ.onrender.com"]
+ALLOWED_HOSTS = ["application-1-6equ.onrender.com","127.0.0.1"]
 
 
 # Application definition
